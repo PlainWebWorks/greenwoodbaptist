@@ -467,6 +467,15 @@ p + p {
     --wrap: min(100% - 24px, 1080px);
   }
 
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .visit-section .button {
+    align-self: stretch;
+  }
+
   .footer-grid {
     flex-direction: column;
   }
