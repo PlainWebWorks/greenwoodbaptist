@@ -310,6 +310,18 @@ p + p {
   margin: 0 0 16px;
 }
 
+.history-source {
+  margin-top: 24px;
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+.history-source a {
+  color: var(--green);
+  text-decoration: underline;
+}
+
 .split {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
